@@ -1,0 +1,64 @@
+body {
+    background-image: url("Arabische-Sprache\ -Schriftzug.jpg");
+    background-size: auto;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div {
+    background: grey;
+    max-width: 70%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+    border-radius: 30px;
+}
+
+#save-btn {
+    background: darkgreen;
+    border-radius: 30px;
+}
+
+
+
+#save-el {
+    
+    display: block; /* Macht es zu einem Blockelement */
+    margin: 10px auto; /* Zentriert das Element horizontal und fügt oberen und unteren Abstand hinzu */
+    margin-bottom: 100px;
+    padding: 10px;
+    color: yellow;
+    background-color: black; /* Hintergrundfarbe für #save-el */
+    border-radius: 30px; /* Runde Ecken */
+    width: fit-content; /* Passt die Breite an den Textinhalt an */
+}
